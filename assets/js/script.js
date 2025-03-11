@@ -926,8 +926,8 @@ function sendMail() {
     message: message
   };
 
-  const serviceID = "service_ss8d2x5";
-  const templateID = "template_w8gjxpk";
+  const serviceID = "service_gx66qxh";
+  const templateID = "template_8fgs0in";
 
   emailjs
     .send(serviceID, templateID, params)
@@ -937,7 +937,7 @@ function sendMail() {
       document.getElementById("phone").value = "";
       document.getElementById("message").value = "";
       console.log(res);
-      window.location = "thank-you.html";
+      window.location = "success.html";
     })
     .catch((err) => console.log(err));
 
@@ -981,8 +981,8 @@ function popMail() {
     message: message
   };
 
-  const serviceID = "service_ss8d2x5";
-  const templateID = "template_fvfiueg";
+  const serviceID = "service_gx66qxh";
+  const templateID = "template_y29wzz6";
 
   emailjs
     .send(serviceID, templateID, params)
@@ -994,7 +994,7 @@ function popMail() {
       document.getElementById("recipientAddress").value = "";
       document.getElementById("recipientMessage").value = "";
       console.log(res);
-      window.location = "thank-you.html";
+      window.location = "success.html";
     })
     .catch((err) => console.log(err));
 
