@@ -1,0 +1,1971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Ozzo Blinds</title>
+  <meta name="ozzoblinds" content="ozzoblinds" />
+  <meta name="keywords" content="	" />
+  <meta name="author" content="ozzoblinds" />
+  <link rel="shortcut icon" href="assets/img/image/ozzologo.webp" type="image/x-icon" />
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/fontawesome-all.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/video.min.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function ()
+    {
+      emailjs.init("EecpcHD3RWqYMwRXg");
+    })();
+  </script>
+
+
+
+  <!-- Facebook Domain Verification -->
+  <meta name="facebook-domain-verification" content="s0apbzhgy8y4ro04b4tht1w7xnmcw5" />
+
+  <!-- Facebook Domain Verification -->
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s)
+    {
+      if (f.fbq) return; n = f.fbq = function ()
+      {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '895222151538853');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=895222151538853&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+  <!-- Google Tag End -->
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i)
+    {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NQL56TM6');</script>
+  <!-- End Google Tag Manager -->
+  <!-- swipper slider -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 90%;
+      padding-top: 50px;
+      padding-bottom: 80px;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+    swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 500px;
+      height: 500px;
+    }
+  </style>
+  <style>
+    @media screen and (max-width: 480px) {
+      swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 120px;
+      }
+
+      swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+
+      swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+    }
+  </style>
+
+  <!-- Modal özel stilleri -->
+  <style>
+    /* Modal özel stilleri */
+    .modal-dialog {
+      max-width: 350px !important;
+      margin: 1rem auto !important;
+    }
+
+    .modal-content {
+      margin: 0 !important;
+      /* margin'i 0'a çektik */
+      border: none !important;
+      /* border'ı kaldırdık */
+    }
+
+    .modal .banner-form-wrapper {
+      float: none !important;
+      max-width: 100% !important;
+      padding: 15px !important;
+    }
+
+    .modal .banner-form-wrapper h3 {
+      font-size: 20px !important;
+      padding-bottom: 10px !important;
+    }
+
+    .modal .banner-form-wrapper p {
+      font-size: 14px !important;
+    }
+
+    .modal .banner-form-wrapper form input,
+    .modal .banner-form-wrapper form textarea {
+      height: 40px !important;
+      padding: 8px 12px !important;
+      font-size: 14px !important;
+      margin-bottom: 10px !important;
+    }
+
+    .modal .banner-form-wrapper form textarea {
+      height: 80px !important;
+    }
+
+    .modal .banner-form-wrapper form button {
+      height: 45px !important;
+      font-size: 16px !important;
+    }
+
+    @media (max-width: 576px) {
+      .modal-dialog {
+        max-width: 370px !important;
+        margin: 0.5rem auto !important;
+        padding: 0 !important;
+        /* padding'i kaldırdık */
+      }
+
+      .modal {
+        padding-left: 0 !important;
+        /* Modal'ın sol padding'ini kaldırdık */
+      }
+
+      .modal .banner-form-wrapper {
+        padding: 10px !important;
+      }
+
+      .modal .banner-form-wrapper h3 {
+        font-size: 20px !important;
+      }
+
+      .modal .banner-form-wrapper form input,
+      .modal .banner-form-wrapper form textarea {
+        height: 50px !important;
+        padding: 6px 10px !important;
+        font-size: 17px !important;
+        margin-bottom: 8px !important;
+      }
+
+      .modal .banner-form-wrapper form textarea {
+        height: 70px !important;
+      }
+
+      .modal .banner-form-wrapper form button {
+        height: 60px !important;
+        font-size: 18px !important;
+      }
+    }
+  </style>
+</head>
+
+
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQL56TM6" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- <div id="preloader"></div>
+    <div class="up">
+      <a href="#" class="scrollup text-center"
+        ><i class="fas fa-chevron-up"></i
+      ></a>
+    </div> -->
+  <!-- Start of header section
+	============================================= -->
+  <header id="clinox-header" class="clinox-header-section header-style-one">
+    <div class="clinox-header-top-wrap">
+      <div class="container">
+        <div class="clinox-header-top-content d-flex align-items-center justify-content-between">
+          <div class="top-info ul-li">
+            <ul>
+              <li><i class="fal fa-phone-alt"></i>(437) 445-2777 </li>
+            </ul>
+          </div>
+          <div class="top-social-btn d-flex align-items-center">
+            <div class="top-social ul-li"></div>
+            <div class="top-btn">
+              <a class="d-flex justify-content-center align-items-center" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">GET FREE QUOTE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clinox-header-logo-cta" style="background-color: #bb9582;">
+      <div class="container">
+        <div class="clinox-header-logo-cta-content d-flex justify-content-center">
+          <div class="brand-logo mt-10">
+            <a href="#"><img src="assets/img/image/mobillogo.webp" style="width: 20rem;" alt="" /></a>
+          </div>
+
+          <div class="header-cta-wrapper d-flex justify-content-between">
+            <div class=" clinox-section-title   d-flex justify-content-center align-items-center position-relative">
+
+              <strong class="text-uppercase"> HUGE BLINDS SALE <br> GET 35% OFF & FREE INSTALLATION</strong>
+
+
+            </div>
+            <div class="header-info-item d-flex align-items-center position-relative">
+              <div class="brand-logo mt-3">
+                <img src="assets/img/image/canada.webp" width="180px" alt="" />
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-navigation-content-wrapper" style="background-color: #202a36;">
+      <div class="container">
+        <div class="header-navigation-content align-items-center d-flex justify-content-center">
+          <div class="sticky-brand-logo mr-100">
+            <a href="#"><img src="assets/img/image/mobillogo.webp" style="width: 7rem; " alt="" /></a>
+          </div>
+          <div class=" mobil-logo">
+            <img src="assets/img/image/canada.webp" width=" 80px" alt="" />
+          </div>
+          <nav class="main-navigation clearfix ul-li">
+            <ul id="main-nav" class="nav navbar-nav clearfix">
+              <li><a href="#clinox-testimonial-2">Google Reviews</a></li>
+              <li class="">
+                <a href="#clinox-testimonial-2">Testimonials</a>
+              </li>
+              <li class="">
+                <a href="#products">Products</a>
+              </li>
+              <li class="">
+                <a href="#clinox-why-choose">Why Us</a>
+              </li>
+              <li class="">
+                <a href="#clinox-team">Portfolio</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </header>
+  <!-- Search PopUp -->
+  <div class="search-popup">
+    <button class="close-search style-two">
+      <span class="fal fa-times"></span>
+    </button>
+    <button class="close-search"><span class="fa fa-arrow-up"></span></button>
+    <form method="post" action="blog.html">
+      <div class="form-group">
+        <input type="search" name="search-field" value="" placeholder="Search Here" required="" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+    </form>
+  </div>
+  <!-- Off canvas Cart -->
+
+  <!-- End of header section
+	============================================= -->
+
+  <!-- Start of Banner section
+	============================================= -->
+
+
+  <section id="clinox-banner" class="clinox-banner-section position-relative top-position" data-background="">
+    <div class="banner-shape bnnr position-absolute">
+      <div class="banner-gradient">
+        <div id="carouselExampleCaptions">
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-irem active web-background"></div>
+            <div class="carousel-item carousel-irem mobile-background"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="mobilbg">
+    </div>
+    <div class="container">
+      <div class="banner-content position-relative">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <div class="banner-text-wrapper">
+              <div class="clinox-section-title  clinox-section-titles headline pera-content ">
+                <span class="sub-title wow fadeInUp " data-wow-delay="400ms" data-wow-duration="1500ms"></span>
+                <h1 class="wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                  <strong class="text-uppercase ">Ozzo Blinds FACTORY OUTLET</strong><br><br>
+                  Get an unbeatable deal on your new window covering
+                </h1>
+                <p class="wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms" style="font-size: 19px;">
+                  <b> Take advantage of our direct-from-factory pricing, 35% 0FF, exceptional quality, and our
+                    unwavering dedication to ensuring our customers' satisfaction, backed by a life-time warranty.</b>
+                </p>
+              </div>
+              <div class="banner-btn-wrapper d-flex align-items-center wow fadeInUp" data-wow-delay="1000ms"
+                data-wow-duration="1500ms">
+                <div class="banner-btn mbl">
+                  <a class="d-flex justify-content-center align-items-center" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"><span>GET FREE QUOTE</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Banner section
+	============================================= -->
+
+  <!-- Slider Eklendi -->
+  <section id="clinox-team" class="clinox-team-section costumer">
+    <div class="container">
+      <div class="clinox-section-title headline text-center pera-content pr-text-in">
+        <h3 class="sub-title d-inline-block">
+          <span class="pr-text-in_item1">
+            <span class="pr-text-in_item2">
+              <span class="pr-text-in_item3">Our Portfolio </span>
+            </span>
+          </span>
+        </h3>
+        <h2>
+          <span class="pr-text-in_item1">
+            <span class="pr-text-in_item2">
+              <span class="pr-text-in_item3">
+                100s of Ontario <b>Homeowners </b> Can't Be Wrong
+              </span>
+            </span>
+          </span>
+        </h2>
+      </div>
+      <div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
+
+
+
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="assets/image/slider/1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/4.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/5.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/6.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/7.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/8.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/9.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/10.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="assets/image/slider/11.webp" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="70" fill="currentColor"
+            class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z" />
+          </svg>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="70" fill="currentColor"
+            class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+            <path
+              d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z" />
+          </svg>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Slider Eklendi -->
+
+
+  <!-- Star Score -->
+  <!-- ============================================= -->
+  <section id="trust">
+    <div class="container ">
+      <div class="section__content">
+        <div class="row">
+          <div class="star__score col-md-2">
+            <h3 class="score__title">Star score</h3>
+            <div class="score__block">
+              <div class="score__star">
+                <img width="57" height="54" src="assets/img/icon/star__icon.svg" alt="">
+              </div>
+              <div class="score__vale" style="font-weight: 800;
+                        font-size: 54px;
+                        color: #333"><span id="">99</span>%</div>
+            </div>
+          </div>
+          <div class="trust__list col-md-4">
+            <ul>
+              <div>
+                <div class="skill-set-percent headline">
+                  <h4>Average Rating </h4>
+                  <div class="progress ">
+                    <div class="progress-bar bg-warning" data-percent="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-set-percent headline">
+                  <h4>Recency </h4>
+                  <div class="progress">
+                    <div class="progress-bar  bg-warning" data-percent="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-set-percent headline">
+                  <h4>Reputation </h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" data-percent="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-set-percent headline">
+                  <h4>Responsiveness</h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" data-percent="100"></div>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="trust__list col-md-4">
+            <div class="list__title">
+              <p><strong>Reviews By Rating</strong> (Past 12 Months)</p>
+            </div>
+            <ul>
+              <div>
+                <div class="skill-set-percent headline">
+                  <h4>Great </h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" data-percent="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-set-percent headline">
+                  <h4>Average</h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" data-percent="20"></div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="skill-set-percent headline">
+                  <h4>Poor </h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" data-percent="2"></div>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="trust__verification col-md-2 d-flex justify-content-center  mt-20 ">
+            <img src="" alt="">
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Star Score End -->
+  <!-- Müşteri Yorumları  -->
+
+  <!-- Start of Testimonial section
+	============================================= -->
+  <section id="clinox-testimonial-2" class="clinox-testimonial-section-2">
+    <div class="clinox-section-title-2 text-center headline pera-content pr-text-in">
+      <h3 class="sub-title d-inline-block">
+        <span class="pr-text-in_item1">
+          <span class="pr-text-in_item2">
+            <span class="pr-text-in_item3"> TESTIMONIALS </span>
+          </span>
+        </span>
+      </h3>
+      <h2>
+        <span class="pr-text-in_item1">
+          <span class="pr-text-in_item2">
+            <span class="pr-text-in_item3">
+              Explore Reviews from Our Happy Clients
+
+            </span>
+          </span>
+        </span>
+      </h2>
+    </div>
+    <div class="clinox-testimonial-content-2">
+      <div class="clinox-testimonial-slider-2">
+        <div class="slider-inner-item">
+          <div class="testimonial-item-2">
+            <div class="clinox-testimonial-item">
+              <div class="inner-img-text-wrap position-relative">
+                <div class="inner-icon-text">
+                  <div class="inner-text headline pera-content">
+                    <p>
+
+                      They have very elegant curtains, and they do their work with great precision and care. I highly
+                      recommend visiting them
+
+                    </p>
+                    <h3>Zouzan Shikh</h3>
+                    <div class="star-icon ul-li">
+                      <ul style="color: yellow; background: gray;">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-inner-item">
+          <div class="testimonial-item-2">
+            <div class="clinox-testimonial-item">
+              <div class="inner-img-text-wrap position-relative">
+                <div class="inner-icon-text">
+                  <div class="inner-text headline pera-content">
+                    <p>
+                      Excellent service! I am so pleased with the entire process from the showroom to installation.
+                      Great quality workmanship!
+
+                    </p>
+                    <h3>Myrtle Mitton</h3>
+                    <div class="star-icon ul-li">
+                      <ul style="color: yellow; background: gray;">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-inner-item">
+          <div class="testimonial-item-2">
+            <div class="clinox-testimonial-item">
+              <div class="inner-img-text-wrap position-relative">
+                <div class="inner-icon-text">
+                  <div class="inner-text headline pera-content">
+                    <p>
+                      We have blinds installed a few times, always coming back for their excellent quality and service.
+                      Ali and his team are professional from helping us to choose custom blinds to final installation.
+                      Highly recommended!
+                    </p>
+                    <h3>Brandon</h3>
+                    <div class="star-icon ul-li">
+                      <ul style="color: yellow; background:  gray;">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-inner-item">
+          <div class="testimonial-item-2">
+            <div class="clinox-testimonial-item">
+              <div class="inner-img-text-wrap position-relative">
+                <div class="inner-icon-text">
+                  <div class="inner-text headline pera-content">
+                    <p>
+                      So happy with my zebra blinds. Best quality product, expert installation, good pricing, fast and
+                      very good quality service♥️
+                    </p>
+                    <h3>Sevil Demircan</h3>
+                    <div class="star-icon ul-li">
+                      <ul style="color: yellow; background:  gray;">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-inner-item">
+          <div class="testimonial-item-2">
+            <div class="clinox-testimonial-item">
+              <div class="inner-img-text-wrap position-relative">
+                <div class="inner-icon-text">
+                  <div class="inner-text headline pera-content">
+                    <p>
+                      They have nice blinds and very nice people to work with. They do custom works and installation as
+                      well. They have also nice Carpets.
+                    </p>
+                    <h3>Sezai Yeter</h3>
+                    <div class="star-icon ul-li">
+                      <ul style="color: yellow; background: gray">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-inner-item">
+          <div class="testimonial-item-2">
+            <div class="clinox-testimonial-item">
+              <div class="inner-img-text-wrap position-relative">
+                <div class="inner-icon-text">
+                  <div class="inner-text headline pera-content">
+                    <p>
+                      The owner is very nice and care about his customers, good product and great service. Highly
+                      recommend!
+                    </p>
+                    <h3>Canny G</h3>
+                    <div class="star-icon ul-li">
+                      <ul style="color: yellow; background: gray;">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-inner-item">
+          <div class="testimonial-item-2">
+            <div class="clinox-testimonial-item">
+              <div class="inner-img-text-wrap position-relative">
+                <div class="inner-icon-text">
+                  <div class="inner-text headline pera-content">
+                    <p>
+                      Good staff, good service, beautiful products. Thank you Classy...
+
+                    </p>
+                    <h3>Halim Selim</h3>
+                    <div class="star-icon ul-li">
+                      <ul style="color: yellow; background:  gray;">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Testimonial section
+	============================================= -->
+  <!-- Müşteri Yorumları End  -->
+
+
+
+
+  <section id="clinox-service" class="clinox-service-section">
+    <div class="container">
+      <div class="clinox-section-title text-center headline pera-content pr-text-in">
+        <h3 class="sub-title d-inline-block">
+          <span class="pr-text-in_item1">
+            <span class="pr-text-in_item2">
+              <span class="pr-text-in_item3">
+                We offer all that you seek.We have everything you are looking for.
+                <br><br>
+              </span>
+            </span>
+          </span>
+        </h3>
+        <h2>
+          <span class="pr-text-in_item1">
+            <span class="pr-text-in_item2">
+              <span class="pr-text-in_item3">
+                Our Products
+              </span>
+            </span>
+          </span>
+        </h2>
+      </div>
+
+      <div id="products" class="row  justify-content-center">
+        <div class="col-md-6">
+          <a data-toggle="modal" data-target="#formModal" data-wpel-link="internal">
+            <span class="block__image">
+              <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
+                <swiper-slide>
+                  <img src="assets/image/zebrablinds.png" />
+                </swiper-slide>
+
+
+              </swiper-container>
+            </span>
+            <div class="products inner-text headline pera-content">
+              <h3>Zebra Blinds</h3>
+              <p>Experience the perfect patterns of zebra blinds that live up to their name, featuring a soft white
+                backdrop adorned with sleek black stripes that run through them, creating an elegant and refined
+                appearance. These blinds are exceptionally thin, adding to their sophisticated and stylish appeal.</p>
+            </div>
+            <span class="pro">Learn more </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a data-toggle="modal" data-target="#formModal" class="item__block" data-wpel-link="internal">
+            <span class="block__image">
+              <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
+                <swiper-slide>
+                  <img src="assets/image/22.png" />
+                </swiper-slide>
+
+              </swiper-container>
+            </span>
+            <div class="products inner-text headline pera-content">
+              <h3>Shades </h3>
+              <p>Shades can come in a variety of styles, including roller shades, cellular shades, Roman shades, and
+                more.Concertina or plisse blinds, also known as pleated blinds, feature honeycomb-shaped pockets that
+                offer insulation, effectively reducing heat loss during winter while keeping the room cool during
+                summer.</p>
+            </div>
+            <span class="pro">Learn more </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a data-toggle="modal" data-target="#formModal" class="item__block" data-wpel-link="internal">
+            <span class="block__image">
+              <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
+                <swiper-slide>
+                  <img src="assets/image/33.png" />
+                </swiper-slide>
+              </swiper-container>
+            </span>
+            <div class="products inner-text headline pera-content">
+              <h3>Roller Blinds</h3>
+              <p>If you desire a modern and lively window treatment, our roller blinds collection is the perfect
+                solution. With their simplicity and functionality, roller blinds are a versatile choice for any room in
+                your home.Roller blinds are a popular choice for their simplicity, functionality, and affordability.</p>
+            </div>
+            <span class="pro">Learn more </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a data-toggle="modal" data-target="#formModal" class="" data-wpel-link="internal">
+            <span class="block__image">
+              <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
+                <swiper-slide>
+                  <img src="assets/image/44.png" />
+                </swiper-slide>
+
+
+              </swiper-container>
+            </span>
+            <div class="products inner-text headline pera-content">
+              <h3>Vertical Blinds</h3>
+              <p>Vertical blinds offer practicality and functionality as they consist of vertical slats made of PVC or
+                fabric that can be adjusted to control the amount of sunlight entering the room. These blinds are ideal
+                for large and unique applications and can be used on non-rectangular or sloping windows with excellent
+                performance.</p>
+            </div>
+            <span class="pro">Learn more </span>
+          </a>
+        </div>
+        <div class="col-md-6" style="justify-content: center;">
+          <a data-toggle="modal" data-target="#formModal" class="" data-wpel-link="internal">
+            <span class="block__image">
+              <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
+                <swiper-slide>
+                  <img src="assets/image/honeycomb.png " />
+                </swiper-slide>
+              </swiper-container>
+            </span>
+            <div class="products inner-text headline pera-content">
+              <h3>Honeycomb Blinds</h3>
+              <p>Honeycomb blinds are a stylish and practical choice for window treatments, offering durability and
+                energy efficiency. Their unique cellular design traps air, providing insulation to keep your home warm
+                in winter and cool in summer. Available in various colors, fabrics, and cell sizes, they can complement
+                any interior decor. Honeycomb blinds are versatile and can be customized for windows, doors, and
+                skylights. Whether installed inside or outside the frame, they offer privacy, light control while
+                enhancing energy savings for your home.</p>
+            </div>
+            <span class="pro">Learn more </span>
+          </a>
+        </div>
+        <div class="col-md-6" style="justify-content: center;">
+          <a data-toggle="modal" data-target="#formModal" class="" data-wpel-link="internal">
+            <span class="block__image">
+              <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
+                <swiper-slide>
+                  <img src="assets/image/66.png" />
+                </swiper-slide>>
+              </swiper-container>
+            </span>
+            <div class="products inner-text headline pera-content">
+              <h3>Curtains</h3>
+              <p>Curtains are a great option to complete the decoration of your home. This style of curtains offers both
+                an aesthetic appearance and the opportunity to control the sun rays in your room. Drapes blinds are made
+                with a thin fabric as well as a durable material so you can use it for a long time.This style of
+                curtains can also be used in homes with a modern decoration style. With a simple design, drapes blinds
+                add a simple and minimalistic atmosphere to your room, while at the same time offering a functional
+                solution. </p>
+            </div>
+            <span class="pro">Learn more </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Button -->
+
+  <section>
+    <div class="banner-btn-wrapper  d-flex justify-content-center align-items-center wow fadeInUp"
+      data-wow-delay="1000ms" data-wow-duration="1500ms" style="margin-top: 1rem; margin-bottom: -2rem;">
+      <div class="banner-btn">
+        <a class="d-flex justify-content-center align-items-center" data-bs-toggle="modal"
+          data-bs-target="#exampleModal"><span>GET FREE QUOTE</span></a>
+      </div>
+    </div>
+  </section>
+  <!-- Button -->
+
+
+  <!-- Start of About section
+	============================================= -->
+  <section id="clinox-about" class="clinox-about-section">
+    <div class="container">
+      <div class="clinox-about-content">
+        <div class="row">
+          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
+            <div class="clinox-about-img position-relative">
+              <div class="clinox-about-img1 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="assets/image/aboutfoto.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="clinox-about-text-wrap">
+              <div class="clinox-section-title headline pera-content pr-text-in">
+                <h3 class="sub-title d-inline-block">
+                  <span class="pr-text-in_item1">
+                    <span class="pr-text-in_item2">
+                      <span class="pr-text-in_item3"> About </span>
+                    </span>
+                  </span>
+                </h3>
+                <h2>
+                  <span class="pr-text-in_item1">
+                    <span class="pr-text-in_item2">
+                      <span class="pr-text-in_item3">
+                        5 Reasons Why Our Motorized Blinds Outlasts the Competition
+                      </span>
+                    </span>
+                  </span>
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                  You can enjoy the convenience and power of our motorized blinds which come with strong and
+                  long-lasting cutting-edge technology. Here are the features that make our blinds stand out:
+                </p>
+                <li>The mechanism has a strong performance that can withstand the test of time.</li>
+                <li>The motors are cutting-edge, ensuring that the blinds are durable.</li>
+                <li>The gearwheels are powered by the 2023 model, making them more efficient.</li>
+                <li>The remote control has been updated and can be used with just one touch of a button.</li>
+                <li>With our 3-year warranty, you can have peace of mind knowing that your blinds are protected.</li>
+                <br>
+                You can trust us to provide the latest and most robust technology, ensuring that your motorized blinds
+                will remain functional and easy to use for many years to come.
+              </div>
+              <div class="about-feature-wrapper">
+                <div class="about-feature-item-wrap position-relative">
+                  <div class="about-feature-item d-flex align-items-center wow fadeInUp" data-wow-delay="400ms"
+                    data-wow-duration="1500ms">
+                    <div class="about-ft-icon d-flex justify-content-center align-items-center">
+                      <img src="assets/img/icon/ic4.png" alt="" />
+                    </div>
+                    <div class="about-ft-text headline" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <h3>2023 Model Blinds Motors</h3>
+                    </div>
+                  </div>
+                  <div class="about-feature-item d-flex align-items-center wow fadeInUp" data-wow-delay="0ms"
+                    data-wow-duration="1500ms">
+                    <div class="about-ft-icon d-flex justify-content-center align-items-center">
+                      <img src="assets/img/icon/ic5.png" alt="" />
+                    </div>
+                    <div class="about-ft-text headline" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <h3>3 Years Unlimited Warranty</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of About section
+
+    <!- Start of Feature section
+	============================================= -->
+  <section id="clinox-feature" class="clinox-feature-section" style="margin-top: -7rem;">
+    <div class="container">
+      <div class="clinox-feature-content">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <div class="clinox-feature-inner-item text-center position-relative">
+              <div class="inner-icon d-flex justify-content-center align-items-center">
+                <span class="line-shape position-absolute"></span>
+                <img src="assets/img/icon/ic1.png" alt="" />
+              </div>
+              <div class="inner-text headline pera-content" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <h3>Strong Blinds Materials
+                </h3>
+                <p>
+                  Our blinds are constructed with sturdy materials such as polyester, PVC, wood, or cotton. We only work
+                  with reputable and certified suppliers for each material type, ensuring that our customers receive
+                  high quality easy-to-use long-lasting and durable products.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+            <div class="clinox-feature-inner-item text-center position-relative">
+              <div class="inner-icon d-flex justify-content-center align-items-center">
+                <span class="line-shape position-absolute"></span>
+                <img src="assets/img/icon/ic2.png" alt="" />
+              </div>
+              <div class="inner-text headline pera-content" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <h3>Benefit Wholesale Pricing
+                </h3>
+                <p>
+                  You can take advantage of our wholesale pricing when you purchase our blinds directly from us as we
+                  are the manufacturer. This means that you can save costs and increase the investment value of your
+                  purchase, without the need for a middleman. Our prices are the most competitive in the market.
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+            <div class="clinox-feature-inner-item text-center position-relative">
+              <div class="inner-icon d-flex justify-content-center align-items-center">
+                <span class="line-shape position-absolute"></span>
+                <img src="assets/img/icon/ic3.png" alt="" />
+              </div>
+              <div class="inner-text headline pera-content" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <h3>A+++ Installation
+                </h3>
+                <p>
+                  At Ozzo Blinds, we understand the significance of a seamless installation process, which is why we
+                  provide top-notch installation services to our customers. Our skilled technicians will carefully and
+                  meticulously install your window coverings, paying close attention to every detail.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Feature section
+	============================================= -->
+
+
+  <!-- Start of About section
+	============================================= -->
+  <section id="clinox-about" class="clinox-about-section" style="margin-top: -3rem;">
+    <div class="container">
+      <div class="clinox-about-content">
+        <div class="row">
+          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
+            <div class="clinox-about-img position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <div class="clinox-about-img1">
+                <img src="assets/image/about.png" alt="" />
+              </div>
+              <!-- <div
+                  class="about-exp position-absolute headline d-flex align-items-center justify-content-center"
+                >
+                  <h3>25</h3>
+                  <span>Years of Experience</span>
+                </div> -->
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="clinox-about-text-wrap">
+              <div class="clinox-section-title headline pera-content pr-text-in">
+                <h3 class="sub-title d-inline-block">
+                  <span class="pr-text-in_item1">
+                    <span class="pr-text-in_item2">
+                      <span class="pr-text-in_item3"> About </span>
+                    </span>
+                  </span>
+                </h3>
+                <h2>
+                  <span class="pr-text-in_item1">
+                    <span class="pr-text-in_item2">
+                      <span class="pr-text-in_item3">
+                        Blinds, Shades, Drapes & Curtains Company
+                      </span>
+                    </span>
+                  </span>
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                  Ozzo Blinds is a well-known company that manufactures premium blinds, shades, drapes, and curtains.
+                  With our years of experience, we have honed our skills in creating visually appealing window
+                  treatments that enhance the look and atmosphere of any room. When planning your next window upgrade,
+                  opt for OzzoBlinds and benefit from our knowledge and proficiency.
+
+                </p>
+              </div>
+              <div class="about-feature-wrapper">
+                <div class="about-feature-item-wrap position-relative">
+                  <div class="about-feature-item d-flex align-items-center wow fadeInUp" data-wow-delay="400ms"
+                    data-wow-duration="1500ms">
+                    <div class="about-ft-icon d-flex justify-content-center align-items-center">
+                      <img src="assets/img/icon/ic4.png" alt="" />
+                    </div>
+                    <div class="about-ft-text headline" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <h3>Residential Blinds & Shadings
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="about-feature-item d-flex align-items-center wow fadeInUp" data-wow-delay="0ms"
+                    data-wow-duration="1500ms">
+                    <div class="about-ft-icon d-flex justify-content-center align-items-center">
+                      <img src="assets/img/icon/ic5.png" alt="" />
+                    </div>
+                    <div class="about-ft-text headline" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <h3>Commercial Blinds & Shadings</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of About section
+	============================================= -->
+
+
+  <!-- Slider Eklendi -->
+  <section id="clinox-team" class="clinox-team-section" style="margin-top: -7rem;">
+    <div class="clinox-section-title text-center headline pera-content pr-text-in">
+      <h2>
+        <span class="pr-text-in_item1">
+          <span class="pr-text-in_item2">
+            <span class="pr-text-in_item3">
+              How Blinds are <b> Manufactured </b>
+
+            </span>
+          </span>
+        </span>
+      </h2>
+    </div>
+    <div class="container">
+      <div class="clinox-team-content position-relative">
+        <div class="clinox-team-slider-wrap">
+          <div class="slider-inner-item">
+            <div class="clinox-team-inner-item position-relative">
+              <div class="inner-img">
+                <img src="assets/image/m1.png" alt="" />
+              </div>
+
+            </div>
+          </div>
+          <div class="slider-inner-item">
+            <div class="clinox-team-inner-item position-relative">
+              <div class="inner-img">
+                <img src="assets/image/m2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="slider-inner-item">
+            <div class="clinox-team-inner-item position-relative">
+              <div class="inner-img">
+                <img src="assets/image/m3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel_nav">
+          <button type="button" class="team_left_arrow">
+            <i class="far fa-long-arrow-left"></i>
+          </button>
+          <button type="button" class="team_right_arrow">
+            <i class="far fa-long-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Slider Eklendi -->
+
+
+
+  <!-- Start of Service section
+    ============================================= -->
+  <section id="clinox-service" class="clinox-service-section ">
+    <div class="container">
+      <div class="clinox-section-title text-center headline pera-content pr-text-in">
+        <h3 class="sub-title d-inline-block">
+          <span class="pr-text-in_item1">
+            <span class="pr-text-in_item2">
+              <span class="pr-text-in_item3"> How We Start & Complete </span>
+            </span>
+          </span>
+        </h3>
+        <h2>
+          <span class="pr-text-in_item1">
+            <span class="pr-text-in_item2">
+              <span class="pr-text-in_item3">
+                We use a simple <b> 4-step process </b> to manufacture and install your window covering with ease.
+              </span>
+            </span>
+          </span>
+        </h2>
+      </div>
+      <div class="clinox-service-content ml-45">
+        <div class="row">
+          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
+            <div class="clinox-service-inner-item d-flex align-items-center flex-wrap" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              <div class="inner-img">
+                <img src="assets/image/h1.png" alt="" />
+              </div>
+              <div class="inner-icon-text">
+                <div class="inner-icon">
+                  <img src="assets/img/icon/ic12.png" alt="" />
+                </div>
+                <div class="inner-text headline pera-content">
+                  <h3>Complimentary Measurement</h3>
+                  <p>Our team will come to your home to take precise measurements of your windows and provide you with
+                    fabric samples.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInRight" style="margin-bottom: -3rem;" data-wow-delay="0ms"
+            data-wow-duration="1500ms">
+            <div class="clinox-service-inner-item d-flex align-items-center flex-wrap" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              <div class="inner-img">
+                <img src="assets/image/h2.png" alt="" />
+              </div>
+              <div class="inner-icon-text">
+                <div class="inner-icon">
+                  <img src="assets/img/icon/ic14.png" alt="" />
+                </div>
+                <div class="inner-text headline pera-content">
+                  <h3>Free Quotation</h3>
+                  <p>We offer a no-obligation quote based on your preferred fabric selection.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInLeft" style="margin-bottom: -3rem;" data-wow-delay="800ms"
+            data-wow-duration="1500ms">
+            <div class="clinox-service-inner-item d-flex align-items-center flex-wrap" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              <div class="inner-img">
+                <img src="assets/image/h3.png" alt="" />
+              </div>
+              <div class="inner-icon-text">
+                <div class="inner-icon">
+                  <img src="assets/img/icon/ic10.png" alt="" />
+                </div>
+                <div class="inner-text headline pera-content">
+                  <h3>Manufacturing in Our Factory</h3>
+                  <p>Once you approve the quote, we manufacture your blinds using premium equipment in Europe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInRight" data-wow-delay="1000ms" data-wow-duration="1500ms">
+            <div class="clinox-service-inner-item d-flex align-items-center flex-wrap" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              <div class="inner-img">
+                <img src="assets/image/h4.png" alt="" />
+              </div>
+              <div class="inner-icon-text">
+                <div class="inner-icon">
+                  <img src="assets/img/icon/ic3.png" alt="" />
+                </div>
+                <div class="inner-text headline pera-content">
+                  <h3>Free Premium Installation</h3>
+                  <p>After undergoing quality checks, our experienced team will install your window coverings with
+                    expertise.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Service section
+    ============================================= -->
+
+  <!-- Start of Fun Fact section
+    ============================================= -->
+  <section id="clinox-fun-fact" class="clinox-fun-fact-section position-relative" data-background="">
+    <div class="banner-shape  position-absolute " style="background-color: #D7BCAE;">
+
+    </div>
+    <div class="container" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class="clinox-fun-fact-content position-relative">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="clinox-fun-fact-item headline pera-content d-flex justify-content-center">
+              <div class="inner-text-counter">
+                <h3><span class="counter">1</span>K+</h3>
+                <p>Projects Completed </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="clinox-fun-fact-item headline pera-content d-flex justify-content-center">
+              <div class="inner-text-counter">
+                <h3><span class="counter">1</span>K+</h3>
+                <p>Satisfied Customers</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="clinox-fun-fact-item headline pera-content d-flex justify-content-center">
+              <div class="inner-text-counter">
+                <h3><span class="counter">99</span>+</h3>
+                <p>Lifetime Warranty</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="clinox-fun-fact-item headline pera-content d-flex justify-content-center">
+              <div class="inner-text-counter">
+                <h3><span class="counter">5</span></h3>
+                <p>Star Google Reviews</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Fun Fact section
+    ============================================= -->
+
+  <!-- Start of Why choose section
+    ============================================= -->
+  <section id="clinox-why-choose" class="clinox-why-choose-section">
+    <div class="container">
+      <div class="clinox-why-choose-content">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="clinox-why-choose-text-wrap">
+              <div class="clinox-section-title headline pera-content pr-text-in">
+                <h3 class="sub-title d-inline-block">
+                  <span class="pr-text-in_item1">
+                    <span class="pr-text-in_item2">
+                      <span class="pr-text-in_item3"> Why Us? </span>
+                    </span>
+                  </span>
+                </h3>
+                <h2>
+                  <span class="pr-text-in_item1">
+                    <span class="pr-text-in_item2">
+                      <span class="pr-text-in_item3">
+                        What sets us apart is that we produce our fabrics and materials in-house at our factory located
+                        in Europe & Canada.
+                      </span>
+                    </span>
+                  </span>
+                </h2>
+              </div>
+              <div class="clinox-why-choose-inner-wrapper">
+                <div class="row">
+                  <div class="col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="clinox-why-choose-inner-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <div class="inner-icon position-relative">
+                        <img src="assets/img/icon/ic11.png" alt="" />
+                      </div>
+                      <div class="inner-text headline">
+                        <h3>99+ Lifetime Warranty </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <div class="clinox-why-choose-inner-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <div class="inner-icon position-relative">
+                        <img src="assets/img/icon/ic10.png" alt="" />
+                      </div>
+                      <div class="inner-text headline">
+                        <h3>Direct From Our Factory</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clinox-why-choose-skill-wrap headline pera-content">
+                <h3>We offer over 100 different fabric colors and designs to choose from.</h3>
+                <div class="skill-progress-bar">
+                  <div class="skill-set-percent headline">
+                    <h4>Durability</h4>
+                    <div class="progress">
+                      <div class="progress-bar" data-percent="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill-set-percent headline">
+                    <h4>Quality</h4>
+                    <div class="progress">
+                      <div class="progress-bar" data-percent="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" style="margin-top: 5rem;">
+            <div class="clinox-why-choose-img position-relative">
+              <span class="bg-shape position-absolute"></span>
+              <div class="why-choose-img1 bg-img-area" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="assets/image/whyus.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Why choose section
+    ============================================= -->
+
+  <!-- Butoon eklendi -->
+  <section>
+    <div class="banner-btn-wrapper d-flex justify-content-center align-items-center wow fadeInUp"
+      data-wow-delay="1000ms" data-wow-duration="1500ms">
+      <div class="banner-btn">
+        <a class="d-flex justify-content-center align-items-center" data-bs-toggle="modal"
+          data-bs-target="#exampleModal"><span>GET FREE QUOTE</span></a>
+      </div>
+    </div>
+  </section>
+  <!-- Butoon eklendi -->
+
+  <!-- Start of Team section
+    ============================================= -->
+  <section id="clinox-team" class="clinox-team-section">
+    <div class="container">
+      <div class="clinox-section-title headline text-center pera-content pr-text-in">
+        <h3 class="sub-title d-inline-block">
+          <span class="pr-text-in_item1">
+            <span class="pr-text-in_item2">
+              <span class="pr-text-in_item3"> Our Portfolio</span>
+            </span>
+          </span>
+        </h3>
+        <h2>
+          <span class="pr-text-in_item1">
+            <span class="pr-text-in_item2">
+              <span class="pr-text-in_item3">
+                See How We Get the
+                <b>Job Done</b>
+              </span>
+            </span>
+          </span>
+        </h2>
+      </div>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/image/slider/1.webp" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/2.webp" class="d-block w-100" alt="2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/3.webp" class="d-block w-100" alt="3">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/4.webp" class="d-block w-100" alt="4">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/5.webp" class="d-block w-100" alt="5">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/6.webp" class="d-block w-100" alt="6">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/7.webp" class="d-block w-100" alt="7">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/8.webp" class="d-block w-100" alt="8">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/9.webp" class="d-block w-100" alt="9">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/10.webp" class="d-block w-100" alt="10">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/slider/11.webp" class="d-block w-100" alt="11">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="70" fill="currentColor"
+            class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+            <path
+              d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z" />
+          </svg>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="70" fill="currentColor"
+            class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+            <path
+              d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z" />
+          </svg>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- End of Team section
+    ============================================= -->
+
+  <!-- Butoon eklendi -->
+  <section>
+    <div class="banner-btn-wrapper d-flex justify-content-center align-items-center wow fadeInUp"
+      data-wow-delay="1000ms" data-wow-duration="1500ms">
+      <div class="banner-btn">
+        <a class="d-flex justify-content-center align-items-center" data-bs-toggle="modal"
+          data-bs-target="#exampleModal"><span>GET FREE QUOTE</span></a>
+      </div>
+    </div>
+  </section>
+  <!-- Butoon eklendi -->
+
+  <!-- Start of faq section
+    ============================================= -->
+  <section id="clinox-faq" class="clinox-faq-section">
+    <div class="container">
+      <div class="clearfix-faq-content">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="clinox-faq-img-wrap position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <span class="bg-shape position-absolute"></span>
+              <div class="faq-img1 bg-img-area">
+                <img src="assets/image/sonresım.png" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="clinox-faq-text-wrapper">
+              <div class="clinox-section-title headline pera-content pr-text-in">
+                <h3 class="sub-title d-inline-block">
+                  <span class="pr-text-in_item1">
+                    <span class="pr-text-in_item2">
+                      <span class="pr-text-in_item3"> Any Question </span>
+                    </span>
+                  </span>
+                </h3>
+                <h2>
+                  <span class="pr-text-in_item1">
+                    <span class="pr-text-in_item2">
+                      <span class="pr-text-in_item3">
+                        Frequently Asked <b>Questions</b>
+                      </span>
+                    </span>
+                  </span>
+                </h2>
+              </div>
+              <div class="clinox-faq-accordion">
+                <div class="accordion" id="accordionExample2">
+                  <div class="accordion-item headline-2 pera-content wow fadeInUp" data-wow-delay="200ms"
+                    data-wow-duration="1500ms">
+                    <h2 class="accordion-header" id="headingOne2">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne2" aria-expanded="true">
+                        What are your products?
+                      </button>
+                    </h2>
+                    <div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne2"
+                      data-bs-parent="#accordionExample2">
+                      <div class="accordion-body">
+                        Our product line includes zebra blinds, roller blinds, window blinds, shutters, curtains, and
+                        vertical blinds.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item headline-2 pera-content wow fadeInUp" data-wow-delay="400ms"
+                    data-wow-duration="1500ms">
+                    <h2 class="accordion-header" id="headingTwo2">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo2" aria-expanded="false">
+                        Are your products customizable?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2"
+                      data-bs-parent="#accordionExample2">
+                      <div class="accordion-body">
+                        Yes, they are. We work collaboratively with you to design a window covering that suits your
+                        property's specific requirements.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item headline-2 pera-content wow fadeInUp" data-wow-delay="0ms"
+                    data-wow-duration="1500ms">
+                    <h2 class="accordion-header" id="headingThree2">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree2" aria-expanded="false">
+                        Is a free measurement service available?
+                      </button>
+                    </h2>
+                    <div id="collapseThree2" class="accordion-collapse collapse" aria-labelledby="headingThree2"
+                      data-bs-parent="#accordionExample2">
+                      <div class="accordion-body">
+                        Yes, we offer a complimentary measurement service where we visit your home or office with
+                        samples, take window measurements, and provide you with pricing information.
+                      </div>
+                    </div>
+                    <div class="accordion-item headline-2 pera-content wow fadeInUp" data-wow-delay="800ms"
+                      data-wow-duration="1500ms">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour" aria-expanded="false">
+                          Am I obligated to make a purchase after receiving a quote?
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample2">
+                        <div class="accordion-body">
+                          No, you are not. Our quotes and estimates are completely free, and there are no strings
+                          attached.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- End of faq section
+    ============================================= -->
+
+  <!-- Start of Promo section
+    ============================================= -->
+  <section id="clinox-promo" class="clinox-promo-section position-relative" data-background="">
+    <div class="banner-shape position-absolute" style="background-color: #D7BCAE ;">
+
+    </div>
+    <div class="container">
+      <div class="clinox-promo-content position-relative">
+        <div class="clinox-section-title headline pera-content pr-text-in">
+          <h3 class="sub-title d-inline-block">
+            <span class="pr-text-in_item1">
+              <span class="pr-text-in_item2">
+                <span class="pr-text-in_item3"> Lat's Talk </span>
+              </span>
+            </span>
+          </h3>
+          <h2>
+            <span class="pr-text-in_item1">
+              <span class="pr-text-in_item2">
+                <span class="pr-text-in_item3">
+                  Contact us today to receive a 35% discount, complimentary installation, and a free design
+                  consultation.
+                </span>
+              </span>
+            </span>
+          </h2>
+        </div>
+        <div class="banner-btn-wrapper d-flex align-items-center wow fadeInUp" data-wow-delay="1000ms"
+          data-wow-duration="1500ms">
+          <div class="banner-btn">
+            <a class="d-flex justify-content-center align-items-center" data-bs-toggle="modal"
+              data-bs-target="#exampleModal"><span>GET FREE DESIGN</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Promo section
+    ============================================= -->
+
+
+
+  <!-- Start of Contact section
+	============================================= -->
+  <section id="clinox-contact" class="clinox-contact-section">
+    <div class="container">
+      <div class="clinox-contact-content">
+        <div class="row">
+          <div class="col-md-6 m-auto">
+            <div class="clinox-contact-info-wrap headline">
+              <h3>Contact Info</h3>
+              <div class="clinox-contact-info">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="contact-info-item d-flex">
+                      <div class="inner-icon">
+                        <img src="assets/img/icon/ic15.png" alt="" />
+                      </div>
+                      <div class="inner-text">
+                        <h4>Office Addresses:</h4>
+                        <span>Improve Canada | 7250 Keele St unite 16-18, Concord, ON L4K 1Z8</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="contact-info-item d-flex">
+                      <div class="inner-icon">
+                        <img src="assets/img/icon/ic16.png" alt="" />
+                      </div>
+                      <div class="inner-text">
+                        <h4>Mail Us</h4>
+                        <span>sales@ozzoblinds.ca</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="contact-info-item d-flex">
+                      <div class="inner-icon">
+                        <img src="assets/img/icon/ic17.png" alt="" />
+                      </div>
+                      <div class="inner-text">
+                        <h4>Telephone</h4>
+                        <span>(437) 445-2777 </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="contact-info-item d-flex">
+                      <div class="inner-icon">
+                        <img src="assets/img/icon/ic18.png" alt="" />
+                      </div>
+                      <div class="inner-text">
+                        <h4>Opening Hour</h4>
+                        <span>09:00am - 06:00pm </span>
+                        <p>Saturdays - Appointment Only</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-45 ">
+            <div class="banner-form-wrapper headline wow fadeInRight" style="background-color: #202A36;">
+              <h3 style=" color: #f49800; justify-content: center; ">Fill the form to get 35% OFF & FREE Design.</h3>
+              <p style=" color: #fff;">Get FREE Estimate</p>
+              <form id="contactForm" onsubmit="return sendMail()" method="POST">
+                <input id="name" type="text" name="name" placeholder="Name" required />
+                <input id="email" type="text" name="email" placeholder="Email" required />
+                <input id="phone" type="number" name="phone" placeholder="Phone" required />
+                <textarea id="message" name="message" placeholder="Describe Project" required></textarea>
+                <button type="submit">GET FREE QUOTE</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- End of Contact section
+============================================= -->
+  <!-- Start of Footer section
+	============================================= -->
+
+
+
+  <script>
+    window.onload = function ()
+    {
+      setTimeout(function ()
+      {
+        $('#exampleModal').modal('show');
+      }, 10000)
+      setTimeout(function ()
+      {
+        $('#sonModal').modal('show');
+      }, 90000);
+    };
+  </script>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="submit" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class=" ">
+          <div class="banner-form-wrapper  headline wow ">
+            <h3>Fill the form to get 35% OFF & FREE Premium Installation.</h3>
+            <p>Get FREE Estimate</p>
+            <div class="countdown">
+              <div class="countdown__item">
+                <div class="countdown__item--number" id="days">00</div>
+                <div class="countdown__item--label">Days</div>
+              </div>
+              <div class="countdown__item">
+                <div class="countdown__item--number" id="hours">00</div>
+                <div class="countdown__item--label">Hours</div>
+              </div>
+              <div class="countdown__item">
+                <div class="countdown__item--number" id="minutes">00</div>
+                <div class="countdown__item--label">Minutes</div>
+              </div>
+              <div class="countdown__item">
+                <div class="countdown__item--number" id="seconds">00</div>
+                <div class="countdown__item--label">Seconds</div>
+              </div>
+            </div>
+            <form id="popupForm" onsubmit="return popMail()">
+              <input id="recipientName" type="text" name="name" placeholder="Name" required />
+              <input id="recipientEmail" type="text" name="email" placeholder="Email" required />
+              <input id="recipientPhone" type="number" name="phone" placeholder="Phone number" required />
+              <input id="recipientConfirm" type="number" name="confirm" placeholder="Confirm number" required />
+              <input id="recipientCity" type="text" name="city" placeholder="City" required />
+              <textarea style="resize: none;" id="recipientMessage" name="message" placeholder="Describe Project"
+                required></textarea>
+              <button type="submit">GET FREE QUOTE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- POP-UP CONTACT FORM END -->
+  <button class="fixed-button banner-btn" style="color: #fff;" data-bs-toggle="modal"
+    data-bs-target="#exampleModal"><b>GET FREE QUOTE</b></button>
+
+
+  <div class="modal fade" id="sonModal" tabindex="-1" aria-labelledby="ürünModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="submit" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="">
+          <div class="banner-form-wrapper  headline wow ">
+            <h5><b>Unlock your 35% discount now.</b></h5>
+            <br>
+            <h6>Hurry! Only 8 spots left!</h6>
+            <br><br>
+            <form id="sonForm" action="https://formspree.io/f/xpzelkgl" method="POST">
+              <input id="sonEmail" type="text" name="email" placeholder="Email" required />
+              <input id="sonPhone" type="number" name="phone" placeholder="Phone" required />
+              <textarea id="sonMessage" name="message" placeholder="Describe Project" required></textarea>
+              <button type="submit">GET FREE QUOTE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Belirtilen tarihten sonraki 4 saat 16 dakika 15 saniyenin bitiş tarihini hesaplayın
+    var endTime = new Date();
+    endTime.setHours(endTime.getHours() + 4);
+    endTime.setMinutes(endTime.getMinutes() + 16);
+    endTime.setSeconds(endTime.getSeconds() + 15);
+
+    // Geri sayımı başlatın
+    var countdown = setInterval(function ()
+    {
+      // Şimdiki tarihi alın
+      var now = new Date().getTime();
+
+      // Kalan zamanı hesaplayın
+      var distance = endTime - now;
+
+      // Saat, dakika ve saniyeleri hesaplayın
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Kalan zamanı ekrana yazdırın
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+
+      // Zamanın dolduğunu kontrol edin ve yeni bir geri sayım başlatın
+      if (distance < 0)
+      {
+        // Yeni son tarihi hesaplayın
+        endTime = new Date();
+        endTime.setHours(endTime.getHours() + 4);
+        endTime.setMinutes(endTime.getMinutes() + 16);
+        endTime.setSeconds(endTime.getSeconds() + 15);
+
+        // Geri sayımı yeniden başlatın
+        console.log("4 saat 16 dakika 15 saniye doldu. Yeni geri sayım başlatılıyor...");
+      }
+    }, 1000);
+
+  </script>
+
+
+
+
+
+
+
+  <!-- End of Footer section
+	============================================= -->
+
+  <!-- For Js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/appear.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/js/jquery.filterizr.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/gmap3.min.js"></script>
+  <script src="http://maps.google.com/maps/api/js?key=AIzaSyB6w8j2weabWNNnmQbh4Vsi2-sd7Sqv5zM&#038;ver=5.3.2"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
